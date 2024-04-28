@@ -31,7 +31,7 @@ public class TiposVariaveis {
 
         // Exemplo dos tipos de dados.
 
-        byte idade = 123;
+        byte idade2 = 123;
         short ano = 2024;
         int cep = 21070333; // se começar com zero, talvez tenha que ser outro tipo
         long cpf = 98765432109L; // se começar com zero, talvez tenha que ser outro tipo
@@ -41,10 +41,7 @@ public class TiposVariaveis {
         // Java é fortemente tipado, então precisa ter alguns cuidados.
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto2 = numeroNormal; // nesse caso precisa tomar cuidado, pois pode ser que em determinado ponto
+        short numeroCurto2 = (short)numeroNormal; // nesse caso precisa tomar cuidado, pois pode ser que em determinado ponto
         // do código, o valor de numeroNormal seja maior que o valor que short suporta.
-
-
-    
     }
 }
