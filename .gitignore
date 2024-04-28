@@ -25,3 +25,9 @@ replay_pid*
 VariaveisConstantes/.vscode/settings.json
 variaveis-constantes/.vscode/settings.json
 operadores/.vscode/settings.json
+<<<<<<< HEAD
+=======
+operadores/src/Operadores.java
+operadores/src/Operadores.java
+operadores/src/Operadores.java
+>>>>>>> ee95ec1 (recuperando commit deletado)
